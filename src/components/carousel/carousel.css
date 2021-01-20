@@ -1,0 +1,114 @@
+.reviewText{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 27px;
+    text-align: center;
+    color: #121715;
+}
+
+.reviewerName{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+}
+
+
+
+/* .quotesSymbol{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 150px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.05;
+} */
+
+/* .slick-dots .slick-active{
+    width: 12px;
+    height: 12px;
+    background: #179B55;
+    border-radius: 100%;
+} */
+
+/* .slick-dots active{
+    width: 12px;
+    height: 12px;
+    background: #121715;
+    opacity: 0.1;
+    border-radius: 100%;
+} */
+
+
+/* .slick-dots li.slick-active button:before {
+    color:red;
+  }
+  
+  .slick-prev:before,
+  .slick-next:before {
+    color: red;
+  } */
+
+
+/* .quotesSymbol{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 150px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.05;
+} */
+
+  .ft-slick__dots--custom{
+    width: 12px;
+    height: 12px;
+    background: #121715;
+    opacity: 0.1;
+    border-radius: 100%;
+}
+
+.slick-active .ft-slick__dots--custom{
+    width: 12px;
+    height: 12px;
+    background: #179B55;
+    opacity: 1;
+    border-radius: 100%;
+}
+
+
+
+
+
+
+blockquote {
+    position: relative;
+    text-align: left;
+    padding: 1.2em 0 2em 38px;
+    border: none;
+    margin: 20px auto 20px;
+    max-width: 800px;
+    width:100%;
+    display: block;
+}
+
+blockquote:after {
+    content: "";
+}
+
+blockquote:before {
+    content:'"';
+    font-family: "Montserrat";
+    font-size: 20px;
+    display: block;
+    margin-bottom: 0.8em;
+    font-weight: 400;
+    color: #66cc66;
+}
+
+
