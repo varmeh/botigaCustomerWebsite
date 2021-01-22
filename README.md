@@ -1,70 +1,78 @@
-# Getting Started with Create React App
+# BOTIGA CUSTOMER WEBSITE
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## HOW TO EXECUTE
 
-## Available Scripts
+1. Checkout the project
+2. In the Root of the project install dependency using `npm i`
+3. In the Root of the project execute `npm start`
 
-In the project directory, you can run:
+## CHANGING FOR MOBILE AND DESKTOP
 
-### `npm start`
+edit `index.css` media query for desktop and mobile look and feel
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## BUILDING THE PROJECT FOR DEPLOYMENT
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+1. In the root of the project execute `npm run build` build folder will be generated use the files inisde the build folder for deplyment to aws s3 bucket
 
-### `npm test`
+## CHANGING CONFIG FOR WEBSITE LIKE TERMS, PRiVACY , EMAIL LIST
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Make changes to the config.js file
 
-### `npm run build`
+## ADDING REVIEWS FOR USER
+make chages to reviews.js file. Its an array of reviews.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## CAROUSAL CONFIGURATION
+Carousal made using react slick. Make chages in speed, autoplay etc for carousal in carousal.js file.
+https://www.npmjs.com/package/react-slick
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## EMAIL SRVERVICE
 
-### `npm run eject`
+-   We are using emai.js library to send mail.
+-   Steps to follow:
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+1. create account
+2. add Service and authenticate your email
+3. create one template for your mail
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+use the `service_id`, `template_id`, `user_id` from dashboard in config.js file in project to chage the emailing list.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+## DEPLOYING THE APPLICATION IN AWS S3.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+1. Login to Aws console
+2. Go to the s3 bucket https://console.aws.amazon.com/s3
+3. Click on the "Create Bucket" button. You'll be asked to specify a bucket name and a region
+4. In The properties tab Enable static website hosting, use index.html for default file and error file
+5. In th permision tab, turn off the Block all public access.
+6. In th permision tab, we'll add a bucket policy.
 
-## Learn More
+```
+{
+  "Version": "2012-10-17",
+  "Statement":[
+    {
+      "Sid":"AddPerm",
+      "Effect":"Allow",
+      "Principal": "*",
+      "Action":["s3:GetObject"],
+      "Resource":["arn:aws:s3:::<BUCKET-NAME>/*"]
+    }
+  ]
+}
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+7. Finally go to object tab upload the files inside the build folder of react app to s3 bucket.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+8. Go to properties tab the last section conatins the url to access the application.
 
-### Code Splitting
+## Invalidate
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+-   Website hosted to S3 does not support https
+-   To access site over https, it needs to be connected to a `AWS CloudFront`
+-   Everytime, you update site, `Invalidate` CloudFront cache to show latest changes
 
-### Analyzing the Bundle Size
+## Tutorial:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+1. [Upload react app to s3](https://www.newline.co/fullstack-react/articles/deploying-a-react-app-to-s3/)
 
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+2. [Email js](https://www.emailjs.com/)
