@@ -15,7 +15,7 @@ export function Body() {
 				image={appScreen}
 				primary={'Buy daily needs to specialty items'}
 				secondary={
-					'You find merchants fulfilling your everyday groceries to occassional hand crafts.'
+					'Find merchants fulfilling your everyday groceries to occassional hand crafts.'
 				}
 			/>
 			<TrailingImageRow
@@ -23,7 +23,7 @@ export function Body() {
 				image={upiImage}
 				primary={'Pay Online'}
 				secondary={
-					'No more hassle of keeping change! Pay online with Gpay, PhonePE, Paytm or any of your favorite UPI app.'
+					'Pay with GPay, PhonePE, Paytm or any of your favorite UPI app.'
 				}
 			/>
 			<Infocard />
@@ -86,7 +86,7 @@ function Infocard() {
 					<img alt='privacy-logo' style={style} src={privacyLogo} />
 					<p className='primaryText mt-3'>Privacy focused.</p>
 					<p className='secondaryText'>
-						Just Name, phone number &amp; Delivery Address
+						Just Name, Phone Number &amp; Delivery Address
 					</p>
 				</div>
 				<div className='col-lg-1 col-sm-12 col-med-12 mobile-row-space' />
