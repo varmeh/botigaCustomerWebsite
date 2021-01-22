@@ -3,19 +3,19 @@ import playStore from "../../assets/play-store.png";
 import appStore from "../../assets/app-store.png"
 import { config } from '../../config';
 
+import "./downloadAppBtn.css";
+
 export function DownloadAppBtn() {
-    const style = { height: '60px', width: '203px' }
     return (
-        <div className="d-flex mt-4">
+        <div className="d-flex-btn mt-4">
             <a href={config.store.appStore} target="_blank" rel="noreferrer">
-                <img role="button" alt="app store" style={style} src={appStore} />
+                <input type="image" className="app-btn" role="button" alt="app store"  src={appStore} />
             </a>
             <span className="mobile-row-space"></span>
-            <div className="col-lg-1 col-xs-12 col-sm-2 col-med-2" />
+            <div className="col-1" />
             <a href={config.store.playStore} target="_blank" rel="noreferrer">
-                <img role="button" alt="play store" style={style} src={playStore} />
+                <img type="app-btn" className="app-btn" role="button" alt="play store"  src={playStore} />
             </a>
         </div>
     );
 }
-
