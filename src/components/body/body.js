@@ -27,7 +27,7 @@ export function Body() {
 				}
 			/>
 			<Infocard />
-			{/* <Carousel/> */}
+			<Carousel />
 			<DownloadAppCard />
 		</div>
 	)
