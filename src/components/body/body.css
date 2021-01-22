@@ -1,51 +1,54 @@
-.primaryText{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 39px;
-    color: #000000;
-}
-.primaryText-subtext{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 39px;
-    color: rgba(18, 23, 21, 0.05);
-}
-.secondaryText{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 24px;
-    color: rgba(18, 23, 21, 0.5);
+.primaryText {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 39px;
+	color: #000000;
 }
 
+.primaryText-subtext {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 39px;
+	color: rgba(18, 23, 21, 0.05);
+}
 
-.infoCard{
-    background: #FFFFFF;
-    box-shadow: 0px 4px 60px rgba(15, 34, 63, 0.07);
-    border-radius: 12px;
-}
-.infoCard-content{
-    padding: 96px;
+.secondaryText {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 24px;
+	color: rgba(18, 23, 21, 0.5);
 }
 
+.infoCard {
+	background: #FFFFFF;
+	box-shadow: 0px 4px 60px rgba(15, 34, 63, 0.07);
+	border-radius: 12px;
+}
 
-.downloadAppCard{
-   border-radius: 12px; 
-   background: #179F57;
+.infoCard-content {
+	padding: 96px;
 }
-.downloadAppCard-content{
-    padding: 90px;
+
+.downloadAppCard {
+	border-radius: 12px;
+	background: #179F57;
 }
-.downloadAppCard-primaryText{
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 32px;
-    line-height: 39px;
-    color: #FFFFFF;
+
+.downloadAppCard-content {
+	padding: 90px;
+}
+
+.downloadAppCard-primaryText {
+	font-family: Montserrat;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 32px;
+	line-height: 39px;
+	color: #FFFFFF;
 }
