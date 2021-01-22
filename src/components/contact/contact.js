@@ -86,7 +86,7 @@ export function Contact() {
 						id='closeBtn'
 						className='close'
 						data-dismiss='modal'>
-						<img src={closeImg}/>
+						<img src={closeImg} alt="close"/>
 					</button>
 				</div>
 				<div className='modal-body'>
@@ -114,7 +114,7 @@ export function Contact() {
 						id='closeBtn'
 						className='close'
 						data-dismiss='modal'>
-						<img src={closeImg}/>
+						<img src={closeImg} alt="close"/>
 					</button>
 				</div>
 				<div className='modal-body'>

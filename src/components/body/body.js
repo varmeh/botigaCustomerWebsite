@@ -60,7 +60,7 @@ function Infocard() {
         <div className="infoCard rowSpace">
             <div className="d-flex infoCard-content">
                 <div className="d-flex flex-column justify-content-center align-item-center col-lg-5 col-sm-12 col-med-12">
-                    <img style={style} src={privacyLogo} />
+                    <img alt="privacy-logo" style={style} src={privacyLogo} />
                     <p className="primaryText mt-3">Privacy focused.</p>
                     <p className="secondaryText">Just Name, phone number &amp; Delivery Address</p>
                 </div>
