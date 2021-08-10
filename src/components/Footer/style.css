@@ -1,0 +1,11 @@
+.footer {
+  color: rgba(18, 23, 21, 0.5) !important;
+  font-size: 12px !important;
+  padding-left: 95px;
+  padding-right: 95px;
+}
+.footer a {
+  text-decoration: none !important;
+  color: rgba(18, 23, 21, 0.5) !important;
+  cursor: pointer;
+}
