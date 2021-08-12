@@ -1,5 +1,4 @@
 .head-primary-content {
-  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 42px;
@@ -7,11 +6,15 @@
   color: #121714;
 }
 .head-secondary-content {
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
   color: #121714;
   opacity: 0.5;
+}
+@media (max-width: 576px) {
+  .head-primary-content {
+    line-height: 45px;
+  }
 }

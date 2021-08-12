@@ -1,5 +1,4 @@
 .primaryText {
-  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -8,7 +7,6 @@
 }
 
 .primaryText-subtext {
-  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;
@@ -17,7 +15,6 @@
 }
 
 .secondaryText {
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -45,7 +42,6 @@
 }
 
 .downloadAppCard-primaryText {
-  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 32px;

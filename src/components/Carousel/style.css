@@ -1,5 +1,4 @@
 .reviewText {
-  font-family: Montserrat;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -8,7 +7,6 @@
   color: #121715;
 }
 .reviewerName {
-  font-family: Montserrat;
   font-style: normal;
   font-weight: bold;
   font-size: 20px;
@@ -46,7 +44,7 @@ blockquote:after {
   position: absolute;
   top: -53px;
   left: 10px;
-  font-family: Montserrat;
+
   font-style: normal;
   font-weight: bold;
   font-size: 150px;

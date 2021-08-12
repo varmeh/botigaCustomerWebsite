@@ -46,7 +46,7 @@ const Reviews = () => (
 );
 
 const LeadingImageRow = props => (
-  <div className="d-flex rowSpace">
+  <div className={`d-flex rowSpace ${props.clName}Container`}>
     <div className="d-flex flex-column justify-content-center col-lg-5 col-med-12 col-sm-12">
       <img alt={props.primary} className={props.clName} src={props.image} />
     </div>
@@ -66,7 +66,7 @@ const LeadingImageRow = props => (
 );
 
 const TrailingImageRow = props => (
-  <div className="d-flex rowSpace col-reverse">
+  <div className={`d-flex rowSpace col-reverse ${props.clName}Container`}>
     <div className="col-lg-1 col-sm-12 col-med-12 mobile-row-space" />
     <div className="d-flex flex-column justify-content-center col-lg-4 col-med-12 col-sm-12">
       <p

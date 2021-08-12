@@ -9,3 +9,33 @@
   color: rgba(18, 23, 21, 0.5) !important;
   cursor: pointer;
 }
+.footer > img {
+  display: none;
+}
+.footer .links {
+  display: flex;
+}
+@media (max-width: 550px) {
+  .footer {
+    text-align: left !important;
+    align-items: flex-start !important;
+    border-top: 1px solid rgba(18, 23, 21, 0.05);
+    margin: 55px 0 -55px;
+    padding: 40px 0 0;
+  }
+  .footer > img {
+    width: 120px;
+    display: block;
+  }
+  .footer .company-name {
+    padding: 8px 0 0 !important;
+  }
+  .footer .links {
+    flex-wrap: wrap;
+    margin-top: 20px;
+  }
+  .footer .links > div {
+    width: 50%;
+    padding: 0 0 15px !important;
+  }
+}
