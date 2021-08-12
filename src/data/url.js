@@ -6,3 +6,4 @@ export const profile = "/profile";
 export const login = "/login";
 export const otp = "/otp";
 export const location = "/location";
+export const store = "/store";

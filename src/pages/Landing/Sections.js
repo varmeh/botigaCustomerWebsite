@@ -1,36 +1,10 @@
-import React from "react";
-
-import "./style.css";
-
 import { DownloadAppButton, Carousel } from "../../components";
 import { reviews } from "../../data/reviews";
 
-import upiImage from "../../assets/upi.svg";
 import privacyLogo from "../../assets/privacy.png";
-import appScreen from "../../assets/app-screen.png";
 import botigaBackground from "../../assets/background.svg";
 
-export const LandingLayout = () => (
-  <div>
-    <LeadingImageRow
-      clName="stepImageAppScreen"
-      image={appScreen}
-      primary="Buy daily needs to specialty items"
-      secondary="Find merchants fulfilling your everyday groceries to occassional hand crafts."
-    />
-    <TrailingImageRow
-      clName="stepImageUPI"
-      image={upiImage}
-      primary="Pay Online"
-      secondary="Pay with GPay, PhonePE, Paytm or any of your favorite UPI app."
-    />
-    <Infocard />
-    <Reviews />
-    <DownloadAppCard />
-  </div>
-);
-
-const Reviews = () => (
+export const Reviews = () => (
   <div className="largeRowSpace">
     <Carousel>
       {reviews.map((item, index) => (
@@ -45,7 +19,7 @@ const Reviews = () => (
   </div>
 );
 
-const LeadingImageRow = props => (
+export const LeadingImageRow = props => (
   <div className={`d-flex rowSpace ${props.clName}Container`}>
     <div className="d-flex flex-column justify-content-center col-lg-5 col-med-12 col-sm-12">
       <img alt={props.primary} className={props.clName} src={props.image} />
@@ -65,7 +39,7 @@ const LeadingImageRow = props => (
   </div>
 );
 
-const TrailingImageRow = props => (
+export const TrailingImageRow = props => (
   <div className={`d-flex rowSpace col-reverse ${props.clName}Container`}>
     <div className="col-lg-1 col-sm-12 col-med-12 mobile-row-space" />
     <div className="d-flex flex-column justify-content-center col-lg-4 col-med-12 col-sm-12">
@@ -85,7 +59,7 @@ const TrailingImageRow = props => (
   </div>
 );
 
-const Infocard = () => (
+export const Infocard = () => (
   <div className="infoCard rowSpace">
     <div className="d-flex infoCard-content">
       <div className="d-flex flex-column justify-content-center align-item-center col-lg-5 col-sm-12 col-med-12">
@@ -113,7 +87,7 @@ const Infocard = () => (
   </div>
 );
 
-const DownloadAppCard = () => (
+export const DownloadAppCard = () => (
   <div
     className="downloadAppCard largeRowSpace"
     style={{ backgroundImage: `url(${botigaBackground})` }}

@@ -8,38 +8,32 @@
 a {
   text-decoration: none !important;
 }
-
 .stepImageAppScreen {
   max-width: 526px !important;
   max-height: 858px !important;
   width: 100% !important;
   height: 100% !important;
 }
-
 .stepImageUPI {
   max-width: 526px !important;
   max-height: 858px !important;
   width: 100% !important;
   height: 100% !important;
 }
-
 .head-hero {
   max-width: 654px !important;
   max-height: 577px !important;
   width: 100% !important;
   height: 100% !important;
 }
-
 .rowSpace {
   margin-top: 90px;
 }
-
 .largeRowSpace {
   margin-top: 150px;
 }
 
 /* Small screen */
-
 @media only screen and (max-width: 550px) {
   .mobile-row-space {
     margin-top: 20px !important;
@@ -131,7 +125,6 @@ a {
 }
 
 /* Medium screen */
-
 @media only screen and (min-width: 551px) and (max-width: 992px) {
   .mobile-row-space {
     margin-top: 30px !important;

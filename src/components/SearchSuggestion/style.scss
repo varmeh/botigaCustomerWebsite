@@ -1,0 +1,20 @@
+.searchSuggestion {
+  border-bottom: 1px solid rgba(18, 23, 21, 0.05);
+  padding: 20px 0;
+  cursor: pointer;
+  h5 {
+    font-size: 15px;
+    color: #121715;
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+  p {
+    font-size: 13px;
+    color: rgba(18, 23, 21, 0.5);
+    font-weight: 500;
+    margin-bottom: 0;
+  }
+  &.last {
+    border-bottom: 0;
+  }
+}
