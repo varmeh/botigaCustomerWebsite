@@ -6,6 +6,7 @@ export const AppLayout = ({
   children,
   showNavigation = true,
   cartCount = 0,
+  element,
 }) => (
   <>
     <div
@@ -14,6 +15,7 @@ export const AppLayout = ({
     >
       <div className="appContent">{children}</div>
       {showNavigation && <Navigation cartCount={cartCount} />}
+      {element}
     </div>
   </>
 );

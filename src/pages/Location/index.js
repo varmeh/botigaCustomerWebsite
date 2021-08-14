@@ -15,7 +15,7 @@ export const Location = () => {
   return (
     <AppLayout showNavigation={false}>
       <div className="location">
-        <h1>
+        <h1 className="heading">
           Select Location
           <button onClick={() => history.push(home)}>
             <img src={closeIcon} alt="close" />

@@ -32,6 +32,26 @@ a {
 .largeRowSpace {
   margin-top: 150px;
 }
+.heading {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.heading button img {
+  width: 20px;
+}
+.formSubmitButton {
+  background: #179f57 !important;
+  border-radius: 8px;
+  font-size: 15px;
+  padding: 14px !important;
+  color: white;
+  width: 100%;
+  height: 50px;
+}
 
 /* Small screen */
 @media only screen and (max-width: 550px) {

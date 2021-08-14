@@ -8,6 +8,7 @@
     font-size: 12px;
     font-weight: 500;
     color: rgba(18, 23, 21, 0.5);
+    cursor: pointer;
     &.active {
       background: rgba(23, 159, 87, 0.15);
       color: #179f57;
@@ -16,14 +17,18 @@
 }
 .storeFilterByCategory {
   margin-bottom: 20px;
-  .content {
+  > .content {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0 -15px 0 0;
     .storeCard {
       margin: 32px 15px 0 0;
-      max-width: calc(50% - 15px);
+      width: calc(33.33% - 15px);
+      max-width: none;
+      @media (max-width: 480px) {
+        width: calc(50% - 15px);
+      }
     }
   }
 }

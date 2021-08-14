@@ -43,7 +43,7 @@ export const StoreCardSlider = ({ title = "", info = false, items = [] }) => (
     <h2>
       {title} {info && <img src={infoIcon} alt="info" />}
     </h2>
-    <div style={{ margin: "-6px -6px 32px" }}>
+    <div style={{ margin: "-6px 0px 32px -6px" }}>
       <Carousel
         settings={{
           dots: false,

@@ -1,6 +1,7 @@
-import { useState } from "react";
+/* eslint-disable react-hooks/exhaustive-deps */
 
-import "./style.scss";
+import { useEffect, useState } from "react";
+import { useLocation } from "react-router-dom";
 
 import {
   AppLayout,
@@ -65,7 +66,17 @@ const bannerImages2 = [
 ];
 
 export const Home = () => {
+  const location = useLocation();
   const [showAlert, setAlert] = useState(false);
+
+  // @remove - just to show alert
+  useEffect(() => {
+    if (location.search === "?alert") {
+      setTimeout(() => {
+        setAlert(true);
+      }, 2000);
+    }
+  }, []);
 
   return (
     <AppLayout cartCount={10}>
