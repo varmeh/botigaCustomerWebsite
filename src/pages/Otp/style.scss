@@ -1,0 +1,21 @@
+.otp {
+  p {
+    color: rgba(18, 23, 21, 0.5);
+    margin-bottom: 25px;
+    font-size: 15px;
+  }
+  .input {
+    margin-bottom: 35px;
+    input {
+      width: 40px !important;
+      height: 50px !important;
+      text-align: center !important;
+      color: black;
+      font-size: 15px;
+      margin: 0 12px 0 0;
+      padding: 0;
+      background: rgba(18, 23, 21, 0.05);
+      border-radius: 8px;
+    }
+  }
+}
