@@ -30,13 +30,13 @@
     box-shadow: 0px -2px 16px #1217141a;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-evenly;
     z-index: 999;
     button {
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin: 0 20px;
+      margin: 0;
       position: relative;
       img {
         height: 20px;

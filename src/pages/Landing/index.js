@@ -19,13 +19,13 @@ export const Landing = () => (
       clName="stepImageAppScreen"
       image={appScreen}
       primary="Buy daily needs to specialty items"
-      secondary="Find merchants fulfilling your everyday groceries to occassional hand crafts."
+      secondary="You find merchants fulfilling your everyday groceries to occassional hand crafts."
     />
     <TrailingImageRow
       clName="stepImageUPI"
       image={upiImage}
       primary="Pay Online"
-      secondary="Pay with GPay, PhonePE, Paytm or any of your favorite UPI app."
+      secondary="No more hassle of keeping change! Pay online with Debit Card, Gpay, PhonePE, Paytm or any of your favorite UPI app."
     />
     <Infocard />
     <Reviews />

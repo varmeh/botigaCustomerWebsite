@@ -31,7 +31,11 @@ export const StoreCard = ({
           <span>{time}</span>
         </p>
       </div>
-      {topSeller && <div className="topSeller">Top Seller</div>}
+      {topSeller && (
+        <div className="topSeller">
+          <span>Top Seller</span>
+        </div>
+      )}
       {organic && <div className="organic tag">100% Organic</div>}
       {homechef && <div className="homechef tag">Homechef</div>}
     </div>
@@ -43,7 +47,7 @@ export const StoreCardSlider = ({ title = "", info = false, items = [] }) => (
     <h2>
       {title} {info && <img src={infoIcon} alt="info" />}
     </h2>
-    <div style={{ margin: "-6px 0px 32px -6px" }}>
+    <div style={{ margin: "-6px -20px 32px -6px" }}>
       <Carousel
         settings={{
           dots: false,

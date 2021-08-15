@@ -19,12 +19,11 @@ export const Header = () => (
     <div className="d-flex">
       <div className="d-flex flex-column justify-content-center col-lg-6 col-sm-12 col-med-12">
         <p className="head-primary-content">
-          Order your favorite products from hand-picked local merchants
+          Connecting Gated communities with curated sellers
         </p>
         <p className="head-secondary-content">
-          No minimum order. Free Doorstep delivery
+          Order till Mid-night 12AM • Doorstep delivery
         </p>
-        {/* <DownloadAppButton /> */}
         <SelectCommunity />
       </div>
       <span className="mobile-row-space"></span>

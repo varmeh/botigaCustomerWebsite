@@ -56,12 +56,8 @@ const stores = [
     topSeller: true,
   },
 ];
-const bannerImages1 = [
-  { image: bannerImage, url: "/store/1" },
-  { image: bannerImage, url: "/store/2" },
-  { image: bannerImage, url: "/store/3" },
-];
-const bannerImages2 = [
+
+const bannerImages = [
   { image: bannerImage, url: config.store.appStore, redirect: true },
 ];
 
@@ -85,10 +81,8 @@ export const Home = () => {
           merchantCount={10}
           address="Adharsh Palm Retreat, Phase 3, Mumbai, India"
         />
-        <StoreCardSlider title="Newly Launched" items={stores} />
-        <BannerImages items={bannerImages1} />
         <StoreCardSlider title="Last Day to Order" info={true} items={stores} />
-        <BannerImages items={bannerImages2} />
+        <BannerImages items={bannerImages} />
         <StoreFilterByCategory
           items={stores}
           categories={["Fruits & Veggies", "Home Decor", "Grocery", "Bakery"]}
