@@ -9,7 +9,7 @@ import {
   DownloadAppCard,
 } from "./Sections";
 
-import upiImage from "../../assets/upi.svg";
+import upiImage from "../../assets/upi.svg"; 
 import appScreen from "../../assets/app-screen.png";
 
 export const Landing = () => (

@@ -1,0 +1,64 @@
+.signupForm {
+  display: flex;
+  flex-direction: column;
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 450px;
+    width: 320px;
+
+    .text {
+      max-width: 350px;
+      width: 100%;
+    }
+    .label {
+      color: #121715;
+      opacity: 0.3;
+    }
+    .resize {
+      font-size: 20px;
+      padding: 15px 15px;
+    }
+
+    p {
+      font-size: 13px;
+    }
+
+    a {
+      color: #179f57;
+      cursor: pointer;
+      font-size: 12px;
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+
+    .signUpButton {
+      background: rgba(18, 23, 21, 0.25);
+      border-radius: 6px;
+      font-size: 15px;
+      font-weight: 600;
+      padding: 14px !important;
+      color: white;
+      width: 100%;
+      height: 50px;
+      outline: none;
+      border: none;
+      margin-top: 60px;
+    }
+    .formSubmit {
+      background: #179f57 !important;
+      border-radius: 6px;
+      font-size: 15px;
+      padding: 14px !important;
+      color: white;
+      width: 100%;
+      height: 50px;
+      outline: none;
+      border: none;
+      margin-top: 60px;
+    }
+  }
+}

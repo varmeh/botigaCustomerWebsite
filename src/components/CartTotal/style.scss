@@ -1,0 +1,55 @@
+.cartTotal {
+  display: flex;
+  flex-direction: column;
+  border-top: 4px solid rgba(18, 23, 21, 0.05);
+  padding: 20px 0;
+
+  .border-class{
+    border-top: 2px solid rgba(18, 23, 21, 0.05);
+  }
+
+  .type1 {
+    display: flex;
+    justify-content: space-between;
+
+    p {
+      font-size: 15px;
+      color: #121715;
+    }
+  }
+  .removeFee {
+    span {
+      font-size: 12px;
+      background-color: #f5f2de;
+      border-radius: 4px;
+      padding: 10px;
+      color: #564D0E;
+    }
+  }
+  .withCoupon{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+    border-bottom: 2px solid rgba(18, 23, 21, 0.05);
+
+    p {
+      font-size: 15px;
+      font-weight: 600;
+    }
+    span{
+        color: #179F57;
+    } 
+
+  }
+  .total{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0;
+
+    p {
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+  }
+}

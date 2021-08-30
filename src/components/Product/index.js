@@ -5,7 +5,7 @@ import "./style.scss";
 
 import { ReadMore } from "..";
 
-import minusIcon from "../../assets/minus.svg";
+import minusIcon from "../../assets/minus.svg"; 
 import plusIcon from "../../assets/plus.svg";
 
 export const Product = ({
@@ -31,7 +31,7 @@ export const Product = ({
           <img src={plusIcon} alt="plus" />
         </button>
       </div>
-    );
+    ); 
 
   return (
     <div className="product">
@@ -48,8 +48,8 @@ export const Product = ({
           <img src={image} alt="product" onClick={() => setPreview(true)} />
         )}
         {addToCart()}
-      </div>
-      <Modal
+      </div> 
+      <Modal 
         isOpen={preview}
         toggle={() => setPreview(false)}
         className="productPreview"
@@ -57,7 +57,7 @@ export const Product = ({
         <ModalBody>
           <img src={image} alt="product" />
           <div className="details addToCartButton">
-            <div className="info">
+            <div className="info" >
               <h3>{title}</h3>
               <h4>{subTitle}</h4>
               <h5>&#x20b9;{price}</h5>

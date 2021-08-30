@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { useHistory } from "react-router-dom";
-import OtpInput from "react-otp-input";
+import OtpInput from "react-otp-input"; 
 
 import "./style.scss";
 

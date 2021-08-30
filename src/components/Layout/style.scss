@@ -1,9 +1,9 @@
+
 .appLayout {
   max-width: 600px;
   margin: 0 auto;
   position: relative;
   height: 100vh;
-  overflow: hidden;
   button,
   input {
     padding: 0;
@@ -19,6 +19,7 @@
     overflow: hidden;
     overflow-y: auto;
     height: 100%;
+    
   }
   .appNavigation {
     position: absolute;

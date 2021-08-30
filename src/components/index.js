@@ -16,3 +16,17 @@ export * from "./ReadMore";
 export * from "./Product";
 export * from "./ProductSortByCategory";
 export * from "./PayableAmount";
+export * from "./EditProfile";
+export * from "./UserDetails";
+export * from "./AddressItem";
+export * from "./OrderInfo";
+export * from "./CartItems";
+export * from "./CartTotal";
+export * from "./CartModals";
+export * from "./LoginModal";
+export * from "./OtpModal";
+export * from "./AddressModal";
+export * from "./SignupForm";
+export * from "./PayingModes";
+export * from "./OrderItem";
+

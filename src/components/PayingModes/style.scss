@@ -1,0 +1,70 @@
+.payModes {
+  border-top: 4px solid rgba(18, 23, 21, 0.05);
+  span {
+    padding: 20px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: rgba(18, 23, 21, 0.5);
+    letter-spacing: 1px;
+  }
+
+  .payContainer::-webkit-scrollbar {
+    display: none;
+  }
+  .payContainer {
+    max-height: 200px;
+    overflow-y: scroll;
+    label {
+      
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 72px;
+      max-width: 550px;
+      margin: 10px 0;
+      width: 100%;
+      border: 1px solid rgba(18, 23, 21, 0.05);
+      box-sizing: border-box;
+      box-shadow: 0px 4px 22px rgba(18, 23, 20, 0.07);
+      border-radius: 8px;
+      cursor: pointer;
+
+      .payInfo {
+        display: flex;
+        max-width: 300px;
+        width: 100%;
+
+        img {
+          width: 40px;
+          height: 40px;
+          border-radius: 50%;
+          background: rgba(80, 178, 96, 0.1);
+          padding: 8px;
+          margin: 0 15px;
+        }
+        .content {
+          p {
+            padding: 0;
+            margin: 0;
+            font-size: 15px;
+            color: #121715;
+            font-weight: 600;
+            text-decoration: none;
+          }
+          span {
+            text-transform: none;
+          }
+        }
+      }
+
+      .checkbox {
+        margin-right: 20px;
+      }
+    }
+
+    .active {
+      border: 1px solid #179f57;
+      box-shadow: 0px 4px 22px rgba(18, 23, 20, 0.07);
+    }
+  }
+}

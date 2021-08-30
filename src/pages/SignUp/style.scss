@@ -1,0 +1,21 @@
+.signup {
+    
+  .header {
+    display: flex;
+    align-items: center;
+    span {
+      font-size: 20px;
+      font-weight: 700;
+      margin-left: 20px;
+    }
+  }
+  p {
+    font-size: 13px;
+    color: rgba(18, 23, 21, 0.5);
+  }
+
+  .signupForm{
+    margin: auto;
+    display: flex;
+  }
+}

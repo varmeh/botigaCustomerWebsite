@@ -1,2 +1,16 @@
 .orders {
+  p {
+    font-size: 22px;
+    font-weight: 700;
+    color: #121715;
+  }
+  .pastOrder {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    text-align: center;
+    color: #179f57;
+    margin-top: 20px;
+  }
 }

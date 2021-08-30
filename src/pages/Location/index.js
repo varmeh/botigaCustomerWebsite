@@ -12,8 +12,8 @@ import searchIcon from "../../assets/search.svg";
 export const Location = () => {
   const history = useHistory();
 
-  return (
-    <AppLayout showNavigation={false}>
+  return ( 
+    <AppLayout showNavigation={false}> 
       <div className="location">
         <h1 className="heading">
           Select Location
@@ -26,7 +26,7 @@ export const Location = () => {
           <img src={searchIcon} alt="search" />
         </div>
         <h4>Currently Serving</h4>
-        {searchData.map((item, index) => (
+        {searchData.map((item, index) => ( 
           <SearchSuggestion
             {...item}
             key={index}

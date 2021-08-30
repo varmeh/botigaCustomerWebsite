@@ -16,7 +16,7 @@ import { cart, home } from "../../data/url";
 import productIcon from "../../assets/demo/product7.png";
 
 const categories = ["BEVERAGES", "COOKIE", "DESERTS"];
-const products = Array(50)
+const products = Array(50) 
   .fill(null)
   .map((_, index) => ({
     id: index + 1,
@@ -55,7 +55,7 @@ export const Store = () => {
           />
         )
       }
-    >
+    > 
       <div className="store">
         <SearchableBack
           onBackClick={() => history.push(home)}

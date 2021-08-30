@@ -13,7 +13,7 @@ export const Reviews = () => (
             <p className="reviewText">{item.review}</p>
             <p className="reviewerName">{item.name}</p>
           </blockquote>
-        </div>
+        </div> 
       ))}
     </Carousel>
   </div>

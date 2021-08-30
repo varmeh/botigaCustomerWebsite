@@ -2,7 +2,6 @@
 
 import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-
 import {
   AppLayout,
   CurrentLocation,
@@ -55,6 +54,7 @@ const stores = [
     category: "Fruits & Veggies",
     topSeller: true,
   },
+  
 ];
 
 const bannerImages = [

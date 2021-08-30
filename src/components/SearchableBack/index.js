@@ -6,7 +6,7 @@ import backIcon from "../../assets/back.svg";
 import searchIcon from "../../assets/search-black.svg";
 import closeIcon from "../../assets/close.svg";
 
-export const SearchableBack = ({
+export const SearchableBack = ({ 
   onBackClick = () => 0,
   onSearch = () => 0,
 }) => {

@@ -7,7 +7,7 @@ export const SearchSuggestion = ({
   onClick = () => 0,
 }) => (
   <div className={`searchSuggestion ${last ? "last" : ""}`} onClick={onClick}>
-    <h5>{name}</h5>
-    <p>{address}</p>
+    <h5>{name}</h5> 
+    <p>{address}</p> 
   </div>
 );

@@ -1,2 +1,27 @@
 .cart {
+    display: flex;
+    flex-direction: column; 
+    .header{
+        display: flex;
+        align-items: center;
+        p{
+            font-size: 20px;
+            font-weight: 700;
+            margin: 0;
+            margin-left: 20px;
+        }
+    } 
+    .cartScroll::-webkit-scrollbar {
+        display: none;
+      }
+    .cartScroll{
+        max-height: 480px;
+        height: 100%;
+        overflow-y: scroll;
+
+    } 
 }
+
+
+    
+

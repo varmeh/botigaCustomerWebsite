@@ -3,7 +3,7 @@ export const reviews = [
     review:
       "A very helpful app to get a collective view of all the vendors visiting the society",
     name: "Manvi Gupta",
-  },
+  }, 
   {
     review: "Finally a non hanging app to order my veggies from NGR Fresh",
     name: "Himani Bansal",

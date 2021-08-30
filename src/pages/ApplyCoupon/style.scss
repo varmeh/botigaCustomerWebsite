@@ -1,0 +1,68 @@
+.coupon {
+  .header {
+    display: flex;
+    align-items: center;
+    span {
+      font-size: 20px;
+      font-weight: 600;
+      margin-left: 20px;
+    }
+  }
+  input {
+    width: 100%;
+    height: 56px;
+    border: 1px solid #dadada;
+    border-radius: 5px;
+    padding-left: 20px;
+    margin-top: 20px;
+    max-width: 600px;
+    color: #121715;
+  }
+  p {
+    text-transform: uppercase;
+    padding: 15px 0;
+    font-size: 12px;
+    letter-spacing: 0.2px;
+    color: rgba(18, 23, 21, 0.5);
+  }
+
+  .coupons {
+    .couponItem {
+      height: 120px;
+      p {
+        font-weight: 600;
+        font-size: 15px;
+        color: black;
+        padding: 0;
+        margin: 0;
+      }
+      span {
+        color: rgba(18, 23, 21, 0.5);
+        font-size: 13px;
+      }
+      > div {
+        display: flex;
+        justify-content: space-between;
+        p {
+          font-size: 12px;
+          text-align: center;
+          padding-top: 3px;
+          background-color: #feec7b;
+          height: 26px;
+          width: 100px;
+          border: 1px dashed rgba(188, 165, 17, 0.25);
+        }
+        span{
+            color: #179F57;
+            font-weight: 700;
+            font-size: 13px;
+            cursor: pointer;
+            margin-top: 5px;
+            &:hover{
+              text-decoration: underline;
+            }
+        }
+      }
+    }
+  }
+}

@@ -7,7 +7,7 @@ import { Contact } from "..";
 import { config } from "../../data/config";
 import { landing } from "../../data/url";
 
-import logo from "../../assets/brand-logo.svg";
+import logo from "../../assets/brand-logo.svg"; 
 
 export const Footer = () => (
   <div className="d-flex footer rowSpace">

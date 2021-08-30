@@ -1,0 +1,78 @@
+.loginModal{
+    display: flex;
+    flex-direction: column;
+    p{
+        font-weight: 700;
+        font-size: 20px;
+        padding: 0;
+        margin: 0;
+    }
+    span{
+        font-size: 15px;
+        color: rgba(18, 23, 21, 0.5);
+        
+    }
+    .input{
+        margin: 20px 0;
+    }
+    .login_container{
+        border: 1px solid black;
+        border-radius: 3px;
+        border-color:#DADADA ;
+        height: 56px;
+        margin: 10px 0;
+
+        display: flex;
+        
+        
+        .input{
+            margin: 0 10px;
+            border: none;
+            flex-grow: 1;
+            outline: none;
+            font-size: 18px;
+            
+        }
+        img{
+            margin: 0 20px;
+        }
+
+    }
+}
+.otpInput {
+    margin: 30px 0;
+    input {
+      width: 40px !important;
+      height: 50px !important;
+      text-align: center !important;
+      color: black;
+
+      outline: none;
+      border: 1px solid rgb(172, 167, 167);
+      font-size: 15px;
+      margin: 0 12px 0 0;
+      padding: 0;
+      background: rgba(18, 23, 21, 0.05);
+      border-radius: 8px;
+    }
+}
+
+
+
+.addressHeader{
+    display: flex;
+    p{
+        padding: 0 10px;
+    }
+}
+.addressText{
+    padding-top: 10px;
+    max-width: 300px;
+    p{
+        font-size: 15px;
+        font-weight: 500;
+    }
+    span{
+        font-size: 13px;
+    }
+}

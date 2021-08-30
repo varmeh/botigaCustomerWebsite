@@ -5,13 +5,13 @@ import cartIcon from "../../assets/cart-black.svg";
 import phoneIcon from "../../assets/phone-black.svg";
 import whatsappIcon from "../../assets/whatsapp.svg";
 
-export const Name = () => (
+export const Name = () => ( 
   <div className="name">
     <div>
       <h1>Health & Hunger</h1>
       <p>Your family natural health store</p>
     </div>
-    <img src={storeIcon} alt="store" />
+    <img src={storeIcon} alt="store" /> 
   </div>
 );
 

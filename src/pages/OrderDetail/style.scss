@@ -1,0 +1,106 @@
+.orderD {
+  margin: 10px 0;
+  border-bottom: 4px solid rgba(18, 23, 21, 0.05);
+
+  p {
+    font-weight: 600;
+    font-size: 15px;
+    margin: 0;
+  }
+  span {
+    font-weight: 500;
+    font-size: 12px;
+    color: rgba(18, 23, 21, 0.5);
+  }
+  .price {
+    display: flex;
+    align-items: center;
+    p {
+      max-width: 500px;
+      width: 100%;
+      font-weight: 500;
+      font-size: 13px;
+      margin-bottom: 20px;
+      margin-top: 5px;
+    }
+    span {
+      font-weight: 600;
+      font-size: 13px;
+      margin: 0;
+      color: black;
+    }
+  }
+}
+
+.queryOrder {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 4px solid rgba(18, 23, 21, 0.05);
+
+  p {
+    max-width: 250px;
+    width: 100%;
+  }
+  
+    .btns {
+      button {
+        background: rgba(18, 23, 21, 0.05);
+        border-radius: 8px;
+        padding-left: 10px;
+        margin-left: 16px;
+        width: 42px;
+        height: 42px;
+      }
+      img{
+        padding-right: 8px;
+      }
+    }
+}
+
+.deliverTo {
+  display: flex;
+  padding: 10px 0;
+  border-bottom: 4px solid rgba(18, 23, 21, 0.05);
+  .content{
+    margin-left: 20px;
+    p {
+      font-weight: 600;
+      font-size: 15px;
+      margin:0;
+    }
+    span {
+      font-weight: 500;
+      font-size: 12px;
+      color: rgba(18, 23, 21, 0.5);
+      
+    }
+  }
+}
+
+.status-container {
+  border-bottom: 4px solid rgba(18, 23, 21, 0.05);
+  .status {
+    display: flex;
+    align-items: flex-start;
+    margin: 20px 0;
+    .content {
+      margin-left: 20px;
+      padding-bottom: 10px;
+      flex-grow: 1;
+      border-bottom: 1px solid rgba(18, 23, 21, 0.05);
+      p {
+        margin: 0;
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 20px;
+      }
+      span {
+        font-weight: 500;
+        font-size: 13px;
+        color: rgba(18, 23, 21, 0.5);
+      }
+    }
+  }
+}
+

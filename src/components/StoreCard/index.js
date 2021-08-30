@@ -51,7 +51,7 @@ export const StoreCardSlider = ({ title = "", info = false, items = [] }) => (
       <Carousel
         settings={{
           dots: false,
-          autoplay: false,
+          autoplay: false, 
           infinite: false,
           variableWidth: true,
         }}

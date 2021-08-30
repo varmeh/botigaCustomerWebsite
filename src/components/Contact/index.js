@@ -5,7 +5,7 @@ import { useParams } from "react-router-dom";
 
 import "./style.css";
 
-import { config } from "../../data/config";
+import { config } from "../../data/config"; 
 
 import closeImg from "../../assets/close.svg";
 

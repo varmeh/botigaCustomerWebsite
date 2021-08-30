@@ -1,13 +1,11 @@
 import { useState } from "react";
-
 import "./style.scss";
-
 import { Carousel, StoreCard } from "..";
 
 export const StoreFilterByCategory = ({ items = [], categories = [] }) => {
-  const [selected, setSelected] = useState("All");
+  const [selected, setSelected] = useState("All"); 
   const filteredItems =
-    selected === "All"
+    selected === "All" 
       ? items
       : items.filter(item => item.category === selected);
 

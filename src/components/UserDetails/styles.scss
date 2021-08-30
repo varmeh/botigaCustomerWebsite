@@ -1,0 +1,28 @@
+ul.details {
+  list-style: none; 
+  margin-top: 20px;
+  p{
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    img {
+      margin-right: 10px;
+      margin-bottom: 15px;
+    }
+    button {
+      background-color: rgba(18, 23, 21, 0.05);
+      flex-grow: 1;
+      height: 44px;
+      border-radius: 5px;
+    
+      &:hover {
+        box-shadow: 0px 0px 1px 0px black;
+      }
+    }
+  }
+
+}

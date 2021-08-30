@@ -1,0 +1,15 @@
+.checkout {
+  .header {
+    display: flex;
+    align-items: center;
+    span {
+      font-size: 20px;
+      font-weight: 700;
+      margin-left: 20px;
+    }
+  } 
+  
+  .extra{
+    margin-top: 10px;
+  }
+}

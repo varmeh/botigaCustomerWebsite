@@ -1,0 +1,40 @@
+.orderitem {
+  flex-grow: 1;
+  .detail {
+    display: flex;
+    align-items: center;
+
+    p {
+      max-width: 500px;
+      width: 100%;
+      font-size: 15px;
+      font-weight: 600;
+      margin: 0;
+    }
+  }
+  span {
+    font-weight: 500;
+    font-size: 13px;
+    color: rgba(18, 23, 21, 0.5);
+    letter-spacing: 0.2px;
+  }
+
+  .status { 
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgba(18, 23, 21, 0.05);
+    img{
+      width: 15px;
+      margin-right: 4px;
+    }
+
+    p {
+      margin: 0;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      color: rgba(18, 23, 21, 0.5);
+    }
+  }
+}
